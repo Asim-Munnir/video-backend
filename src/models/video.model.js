@@ -28,7 +28,7 @@ const videoSchema = new Schema({
     views: {
         type: String,
         default: 0,
-    },
+    }, 
     isPublished: {
         type: Boolean,
         default: true
