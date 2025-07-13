@@ -22,7 +22,7 @@ const app = express()
 // routes import
 import userRouter from './routes/user.routes.js'
 
-
+ 
 
 // routes declaration
 app.use("/api/v1/user", userRouter)
